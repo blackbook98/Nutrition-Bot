@@ -1,0 +1,31 @@
+{
+  "name": "NutritionBotFinal",
+  "description": "A nutrition bot acquires input from the user regarding their dietary requirements,  and will output a detailed food plan subscribed for a day.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ExceltoPDFConversion.Activities": "1.1.7",
+    "UiPath.Excel.Activities": "[2.6.3]",
+    "UiPath.Mail.Activities": "[1.4.1]",
+    "UiPath.PDF.Activities": "3.0.0",
+    "UiPath.System.Activities": "[19.4.1]",
+    "UiPath.UIAutomation.Activities": "[19.4.2]",
+    "UiPathTeam.Gmail.Activities": "1.0.6822.33137"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.4.5.3",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
